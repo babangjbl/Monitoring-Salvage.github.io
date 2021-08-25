@@ -1,3 +1,17 @@
+<?php 
+require "functions.php";
+// Jika admin/user menekan tombol save
+if(isset($_POST["submit"])){
+	// jika data yang diinput tidak kosong
+	if(dataBarang($_POST) > 0){
+		echo "Data telah disimpan";
+	}
+	else{
+		echo "Gagal menyimpan data";
+	}
+}
+
+?>
 <!doctype html>
 <html lang="en">
   <head>
