@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(img/background/julian-hochgesang-3-y9vq8uoxk-unsplash.jpg);
+}
+.container {
+  margin-top: 15%;
+}
+.card {
+  border-radius: 30px;
+  background: linear-gradient(225deg, #f0f0f0, #cacaca);
+  box-shadow: -20px 20px 60px #bebebe, 20px -20px 60px #ffffff;
+  border: none;
+}
+.custom-shape-divider-top-1629087462 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1629087462 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 192px;
+}
+
+.custom-shape-divider-top-1629087462 .shape-fill {
+  fill: #d5db6c;
+}
+.custom-shape-divider-bottom-1629087342 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1629087342 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 192px;
+}
+
+.custom-shape-divider-bottom-1629087342 .shape-fill {
+  fill: #29750a;
+}
